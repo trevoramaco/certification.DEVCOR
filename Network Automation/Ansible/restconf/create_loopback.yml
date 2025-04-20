@@ -1,0 +1,23 @@
+---
+- name: "Create Loopback via RESTCONF"
+  hosts: iosxe
+  connection: local
+  tasks:
+    - name: "TASK 1: Configure Loopback via RESTCONF"
+      uri:
+        url: "{{ url }}/data/Cisco-IOS-XE-native:native/interface/Loopback=100"
+        user: "{{ ansible_user }}"
+        password: "{{ ansible_password }}"
+        method: PUT
+        headers:
+          Content-Type: 'application/yang-data+json'
+          Accept:
+            application/yang-data+json,
+            application/yang-data.errors+json
+        body_format: json
+        body: "{{ loop_back_config }}"
+        validate_certs: false
+        status_code:
+         - 200
+         - 201
+         - 204

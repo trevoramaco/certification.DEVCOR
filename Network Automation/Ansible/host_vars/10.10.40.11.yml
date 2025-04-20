@@ -1,0 +1,11 @@
+---
+url: "https://{{ ansible_host }}/restconf"
+loop_back_config:
+  Cisco-IOS-XE-native:Loopback:
+  - description: Added by CBT Nuggets, Change by Ansible
+    ip:
+      address:
+        primary:
+          address: 172.16.99.1
+          mask: 255.255.255.0
+    name: 100
