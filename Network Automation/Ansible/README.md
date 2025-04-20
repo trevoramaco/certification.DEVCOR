@@ -2,6 +2,8 @@
 
 This lab demonstrates how to automate configuration and information gathering from Cisco IOS XE devices using **Ansible**. It covers:
 
+Ansible Cisco IOS Docs: https://docs.ansible.com/ansible/latest/collections/cisco/ios/index.html
+
 - CLI-based automation with `cisco.ios` modules
 - RESTCONF and NETCONF automation using `uri` and data models
 - Inventory and variable management using `inventory.yml`, `group_vars`, and `host_vars`
