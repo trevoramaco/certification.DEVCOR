@@ -11,7 +11,7 @@ This lab demonstrates how to use Python to **create a new Loopback interface** o
 ## Files
 
 - `get-interfaces.py`: Python script to GET existing interfaces
-- `create-interface.py`: Python script to POST a new Loopback interface
+- `create-interface.py`: Python script to POST a new interface
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ This lab demonstrates how to use Python to **create a new Loopback interface** o
    python get-interfaces.py
    ```
    
-2. Run the `create-interface.py` script to create a new Loopback interface:
+2. Run the `create-interface.py` script to create a new interface:
    ```bash
     python create-interface.py
     ```
