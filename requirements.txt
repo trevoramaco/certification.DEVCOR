@@ -29,5 +29,6 @@ PyYAML==6.0.2
 requests==2.32.3
 resolvelib==1.0.1
 rich==14.0.0
+setuptools==79.0.1
 urllib3==2.3.0
 Werkzeug==3.1.3
