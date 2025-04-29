@@ -21,7 +21,7 @@ UCS_USER=admin
 UCS_PASSWORD=password
 ```
 
-## Lab 1: Raw XML API (`ucs_raw_xml_api.py`)
+## Lab 1: Raw XML API (`deploy_service_profiles.py`)
 
 This lab manually builds and sends XML API requests without any SDK or helper libraries.
 
@@ -45,7 +45,7 @@ python ucs_raw_xml_api.py --template TEMPLATE_NAME --prefix NEW_PROFILE_NAME --t
 
 ![ucs_raw_xml.png](../IMAGES/ucs_raw_xml.png)
 
-## Lab 2: UCS Manager Python SDK (`ucs_sdk_api.py`)
+## Lab 2: UCS Manager Python SDK (`ucsm_sdk.py`)
 
 This lab uses Cisco's **`ucsmsdk`** library to simplify API interaction with UCS Manager.
 
