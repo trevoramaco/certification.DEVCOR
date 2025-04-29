@@ -8,6 +8,12 @@ This repository contains two Python-based labs demonstrating how to automate Cis
 Both labs connect to UCS Manager (or UCSPE emulator) and perform basic automation tasks including Service Profile provisioning and VLAN management.
 
 ## Prerequisites
+### UCSPE Emulator
+Use the Cisco UCS Platform Emulator (UCSPE) for testing. Setup as VM in lab environment.
+Follow guide here: https://www.youtube.com/watch?v=A9Ux5TZ7JOg
+
+![ucs_ucspe.png](../IMAGES/ucs_ucspe.png)
+
 ### .env Example
 ```env
 UCS_HOST=10.10.40.30
