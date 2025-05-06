@@ -409,7 +409,7 @@ def main_menu(cat_center):
 if __name__ == "__main__":
     cat_center = CAT_CENTER(CAT_CENTER_HOST, CAT_CENTER_USER, CAT_CENTER_PASSWORD)
 
-    # Login to UCS Manager
+    # Login to Catalyst Center
     cat_center.login()
 
     try:
