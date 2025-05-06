@@ -21,6 +21,13 @@ This lab demonstrates how to interact with the Cisco Catalyst Center API using P
   CAT_PASSWORD=your-password
   ```
 
+## Sandbox Instance
+
+Cisco DevNet Always on Sandbox https://devnetsandbox.cisco.com/DevNet/catalog/Catalyst-Center-Always-On_catalyst-center-always-on#instructions
+- **Host:** `sandboxdnac.cisco.com`
+- **Username:** `devnetuser`
+- **Password**: `Cisco123!`
+ 
 ## Setup
 1. Clone this repo or copy the script locally
 2. Install dependencies:
