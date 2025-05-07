@@ -21,13 +21,13 @@ This repository is intended **solely for educational and demonstration purposes*
 
 > Personally I used a combination of:
 > - A Homelab Cisco 3850 switch
-> - Various VMs (like the FTDv VM) - deploy on my own VMWare ESXI Environment
-> - A Linux server (Docker, Kubernetes, etc.)
+> - Various VMs (like the FTDv VM) - deployed on my own VMWare ESXI Environment
+> - A Linux Server (Docker, Kubernetes, etc.)
 > - Cisco Devnet Sandboxes
 > - Cisco Devnet Learning Labs (and their Sandboxes)
 > - Cisco dCloud Environments (requires a Cisco account)
 
-Any working environment will do, and the labs assume the environment is set up and API access is available for the user (aka: an API key was generated, proper RBAC, etc.)
+Any working environment will do, and the labs assume the environment is set up and API access is available for the user (aka: an API key was generated, proper RBAC, etc.). Refer to official API documentation for the specific platform for more details.
 - [Cisco DevNet Learning Labs](https://developer.cisco.com/learning/)
 - [Cisco DevNet Sandbox](https://devnetsandbox.cisco.com/)
 - [Cisco dCloud](https://dcloud.cisco.com/)
