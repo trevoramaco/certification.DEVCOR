@@ -29,13 +29,13 @@ minikube start --driver=docker \
   --ports=30000-30050:30000-30050 \
   --ports=32769:8443 \
   --ports=32400:32400 \
-  --apiserver-ips=10.10.40.6 \
+  --apiserver-ips=`<remote server ip>` \
   --listen-address=0.0.0.0
 ```
 This command does the following:
 - Maps ports `30000-30050` to host ports for cluster pods that need reachability from a remote machine
-- Exposes the API for remote kubectl execution via port mapping `32769:8443`, and assigning ip `apiserver-ips=10.10.40.6` (remote address)
-- Exposes kubernetes dashboard via port mapping `32400:32400`, so the dashboard is accessible at `10.10.40.6:32400`
+- Exposes the API for remote kubectl execution via port mapping `32769:8443`, and assigning ip `apiserver-ips=<remote server ip>` (remote address)
+- Exposes kubernetes dashboard via port mapping `32400:32400`, so the dashboard is accessible at `<remote server ip>`:`32400`
 
 To utilize the kubernetes dashboard, launch the dashboard and expose it via NodePort to the mapped port `32400`
 ```shell
@@ -76,8 +76,8 @@ Or via pycharm remote connection:
 ## Accessing the Apps
 
 Both the Voting App and Result App are exposed via NodePort. You can access their URLs using:
-- `Voting App`: 10.10.40.6:30004
-- `Results App`: 10.10.40.6:30005
+- `Voting App`: `<remote server ip>`:30004
+- `Results App`: `<remote server ip>`:30005
 
 ![kubernetes_voting_app.png](../IMAGES/kubernetes_voting_app.png)
 

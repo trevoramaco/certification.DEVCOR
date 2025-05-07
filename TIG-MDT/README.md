@@ -55,10 +55,10 @@ Clock is synchronized, stratum 2, reference is 216.239.35.0
 telemetry ietf subscription 1
  encoding encode-kvgpb
  filter xpath /process-cpu-ios-xe-oper:cpu-usage/cpu-utilization/five-seconds
- source-address 10.10.40.1
+ source-address <switch source ip address>
  stream yang-push
  update-policy periodic 500
- receiver ip address 10.10.40.6 57000 protocol grpc-tcp
+ receiver ip address <ip address where telegraf is> 57000 protocol grpc-tcp
 ```
 
 ## Usage
