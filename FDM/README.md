@@ -2,14 +2,14 @@
 
 This Python script automates the creation of network objects in Cisco Firepower Device Manager (FDM) using the REST API. It reads from a CSV file, skips existing objects, and deploys the config.
 
-## What it does
+## Features
 - Authenticates to FDM
 - Grabs Existing List of Network Objects
 - Reads a CSV of network objects (`HOST`, `NETWORK`, `FQDN`, `RANGE`)
 - Validates input and creates missing objects
 - Deploys configuration and checks status
 
-## Requirements
+## Prerequisites
 - Python 3.8+
 - FDM with API access
 - `.env` file for credentials

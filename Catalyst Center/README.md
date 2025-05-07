@@ -11,7 +11,7 @@ This lab demonstrates how to interact with the Cisco Catalyst Center API using P
   - Show logical and physical topology
   - Execute path trace
 
-## Requirements
+## Prerequisites
 - Python 3.8+
 - Catalyst Center instance (DNAC)
 - Environment variables set in `.env` file:
@@ -40,7 +40,7 @@ Cisco DevNet Always on Sandbox https://devnetsandbox.cisco.com/DevNet/catalog/Ca
    python cat_center.py
    ```
 
-## Menu Options
+## Usage
 
 When launched, you will see an interactive menu with available lab exercises:
 

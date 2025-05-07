@@ -168,3 +168,7 @@ cython_debug/
 
 # RESTCONF
 Network Automation/RESTCONF/16_12_1
+
+# Intersight Secret Key File
+SecretKey.pem
+SecretKey.txt
